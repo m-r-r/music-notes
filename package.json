@@ -1,0 +1,21 @@
+{
+  "name": "@m-r-r/music-notes",
+  "version": "0.1.0",
+  "description": "List music notes and calculate their pitch",
+  "main": "music-notes.mjs",
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-modules' node ./test.mjs"
+  },
+  "keywords": [
+    "music",
+    "note",
+    "octave",
+    "pitch",
+    "frequency"
+  ],
+  "author": "Mickaël RAYBAUD-ROIG <raybaudroigm@gmail.com> (http://ctrlaltbksp.eu/)",
+  "license": "LGPL-3.0",
+  "devDependencies": {
+    "tape": "4.9.0"
+  }
+}
